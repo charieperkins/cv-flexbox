@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aber Charity Hope - Resume</title>
+<style>
+     body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background:beige;
+      color:darkblue;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width:cover;
+      margin: 20px ;
+      gap: 20px;
+      align-items: stretch; 
+    }
+    .sidebar {
+      flex: 3 0 280px;
+      display: flex;
+      flex-flow: column; 
+      max-width: cover;
+      flex-direction: row;
+      gap: 5px;
+      justify-content: space-between; ;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: cover;
+    }
+
+    .sidebar .card {
+      background:black;
+      color:white;
+      text-align: center;
+      justify-items: space-between;
+    }
+
+    .sidebar img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 4px solid #fff;
+    }
+
+    .sidebar h3 {
+      margin-top: 15px;
+      font-size: 18px;
+      color:sandybrown;
+      border-bottom:1px solid rgba(255,255,255,0.4);
+      padding-bottom:5px;
+      margin-bottom:10px;
+      text-align:left;
+    }
+
+    .sidebar p,
+    .sidebar ul {
+      font-size: 14px;
+      line-height: 1.6;
+      text-align: left;
+    }
+
+    .sidebar ul {
+      padding-left: 20px;
+    }
+
+    .sidebar a {
+      color:deepskyblue;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      text-decoration: underline;
+    }
+    .main {
+      flex: 3 1 600px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: stretch;
+      max-height: 80vh;
+      overflow-y: auto; 
+    }
+
+    .main h1 {
+      font-size: 32px;
+      margin-bottom: 5px;
+      color:darksalmon
+    }
+    .main h2 {
+      font-size: 20px;
+      color:indigo;
+      margin-top: 0;
+    }
+
+    .section h3 {
+      font-size: 18px;
+      border-left: 4px solid #3498db;
+      padding-left: 8px;
+      margin-bottom: 10px;
+      color:fuchsia;
+    }
+
+    .section p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 10px;
+        background-color:darkorange;
+      }
+      .sidebar {flex-direction: column;
+        width: 100%;
+      }
+      .sidebar img {
+        width: 300px;
+        height: 250px;
+        border-radius: 60%;}}
+        .sidebar h3 {
+          text-align:left;
+        }
+        #black{
+          color:green
+        }
+        #green{
+          color:lightskyblue;
+          text-align: left;
+        }
+</style>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Profile Card -->
+      <div class="card">
+        <img src="charie.jpg" alt="Aber Charity Hope">
+        <h2 id="green">ABER<br><span style="color:purple">CHARITY HOPE</span></h2>
+        <h3 id="black">SYSTEM ANALYST</h3>
+      </div>
+
+      <!-- Bio -->
+      <div class="card">
+        <h3>BIO DATA</h3>
+        <p><b>Age:</b> 22<br><b>Marital status:</b> Single<br><b>Religion:</b>Catholic<br><b>Nationality:</b> Ugandan<br><b>Sex:</b>Female</p>
+      </div>
+
+      <!-- Contacts -->
+      <div class="card">
+        <h3>ADDRESS & CONTACTS</h3>
+        <p>Kitgum<br>Alango west<br>0770819056<br>0767654443<br>
+          <a href="mailto:abercharityhope20@gmail.com">abercharityhope20@gmail.com</a><br>
+          <a href="mailto:charityhopeaber@gmail.com">charityhopeaber@gmail.com</a>
+        </p>
+      </div>
+
+      <!-- Hobbies -->
+      <div class="card">
+        <h3>HOBBIES & INTERESTS</h3>
+        <ul>
+          <li>touring places of interest</li>
+          <li>playing games/li>
+          <li>Watching movies</li>
+          <li>swimming</li>
+        </ul>
+      </div>
+
+      <!-- Leadership -->
+      <div class="card">
+        <h3>LEADERSHIP</h3>
+        <p><strong>Ocer Campion Jesuit College</strong>: <em>Library prefect</em></p>
+        <p><b>Our Lady of Africa Namilyango</b>: <em>Information minister</em></p>
+      </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="main">
+      <div class="card section">
+        <h3>EDUCATION BACKGROUND</h3>
+        <p><b>Muni University</b> | P.O.Box 725, Arua</p>
+        <p>Bachelor’s degree in Information System Management</p>
+        <p><b></b> Our Lady of Africa,Namiyango| P.O.253, Kampala</p>
+        <p>Uganda Advanced Certificate of Education</p>
+        <p><b>Ocer Campion Jesuit College</b> | P.O.Box 309,Gulu</p>
+        <p>Uganda Certificate of Education</p>
+      </div>
+
+      <div class="card section">
+        <h3>EXPERIENCES</h3>
+        <p><b>Assisted in data analysis at Cankura Enterprise Limited</b><br>feb 2023- july 2025</p>
+        <p><b>provided online sales statements</b><br>March 2024 - June 2025</p>
+      </div>
+
+      <div class="card section">
+        <h3>REFEREES</h3>
+        <p><b>Omono Fabio</b><br><b>Tel:</b> 0770656566</p>
+        <p><b>Oryem Denish</b><br><b>Tel:</b> 0766143149</p>
+        <p><b>Okello Jimmy</b><br><b>Tel:</b> 0773261653</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
